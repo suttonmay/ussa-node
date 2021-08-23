@@ -25,8 +25,8 @@ class Generate {
 		await db.exec(`CREATE TABLE IF NOT EXISTS addresses
 			(
 				id TEXT,
+				memberId TEXT,
 				primaryAddress INTEGER,
-				memberid TEXT,
 				address TEXT,
 				city TEXT,
 				state TEXT,

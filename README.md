@@ -32,7 +32,7 @@ image TEXT
 ````
 id TEXT,
 primaryAddress INTEGER,
-memberid TEXT,
+memberId TEXT,
 address TEXT,
 city TEXT,
 state TEXT,
