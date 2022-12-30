@@ -31,8 +31,8 @@ image TEXT
 
 ````
 id TEXT,
-primaryAddress INTEGER,
 memberId TEXT,
+primaryAddress INTEGER,
 address TEXT,
 city TEXT,
 state TEXT,
