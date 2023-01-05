@@ -1,6 +1,6 @@
 US Ski and Snowboard Node.js Test
 ---------------------------------
-
+The page is at root "http://localhost:3000"
 ## Data
 
 Data is stored in an SQLite database located in the data directory.  The database can be generated using the scirpt below.
