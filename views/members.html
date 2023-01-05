@@ -1,0 +1,18 @@
+<div class="mx-auto w-9/12">
+    <% members.forEach(function (member) {%>
+      <div class="w-full bg-gray-200 rounded-lg grid grid-cols-3 gap-4 my-4">
+        <div class="grid grid-rows-4 gap-1 p-8">
+          <div><h3 class="font-bold">Name: </h4><%= member.firstName + ' ' + member.lastName %></div>
+          <div><h3 class="font-bold">Company: </h4><%= member.company %></div>
+          <div><h3 class="font-bold">Title: </h4><%= member.title %></div>
+          <div><h3 class="font-bold">Department: </h4><%= member.department %></div>
+        </div>
+        <div class="grid grid-rows-4 gap-1 pt-8">
+          <div><h3 class="font-bold">Phone: </h3><%= member.phone %></div>
+          <div><h3 class="font-bold" >Address: </h3><%= member.primaryAddress + ' ' + member.city + ', ' + member.state + ' ' + member.zip %></div>
+          <div><h3 class="font-bold">Website: </h3><%= member.url %></div>
+        </div>
+        <img loading="lazy" class="p-8 rounded-lg" src="<%= member.image %>" alt="member picture">
+      </div>
+    <% })%>
+    </div>

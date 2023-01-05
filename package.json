@@ -3,10 +3,12 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@koa/ejs": "^5.0.0",
+    "ejs": "^3.1.8",
     "koa": "^2.13.1",
     "koa-router": "^10.1.1",
     "koa-static": "^5.0.0",
-    "sqlite": "^4.0.23",
+    "sqlite": "^4.1.2",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
